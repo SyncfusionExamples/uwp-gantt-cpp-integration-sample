@@ -7,8 +7,8 @@
     <ProjectGuid>{7D78C674-5285-4041-94B7-A26EF5F7B722}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>App1</RootNamespace>
-    <AssemblyName>App1</AssemblyName>
+    <RootNamespace>UWPGanttSample</RootNamespace>
+    <AssemblyName>UWPGanttSample</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.26100.0</TargetPlatformVersion>
@@ -154,9 +154,6 @@
       <Version>6.2.14</Version>
     </PackageReference>
     <PackageReference Include="Syncfusion.SfGantt.UWP">
-      <Version>35.1.46</Version>
-    </PackageReference>
-    <PackageReference Include="Syncfusion.SfKanban.UWP">
       <Version>35.1.46</Version>
     </PackageReference>
   </ItemGroup>
